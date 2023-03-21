@@ -1,0 +1,122 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+font-family: 'Nunito', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+body{
+    background: #f7f7f7;
+}
+
+section{
+    padding: 2rem 9%;
+}
+
+/* about-us html page */
+.home-header{
+    font-family: 'Bad Script', cursive;
+    font-size: large;
+    color: #77aa01;
+    background: url(Images/home-mission-img.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    padding: 1rem 9%;
+    box-shadow: 0 .5rem 1rem rgba(0, 0,0, 0.1);
+}
+#home{
+    padding: 8rem 9%;
+}
+.home{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    min-height: 100vh;
+    align-items: center;
+    background: url(Images/home-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.home-content{
+    flex: 1 1 40rem;
+    height: 300px;
+    letter-spacing: 0.5px;
+}
+.home-image{
+    flex: 1 1 40rem;
+}
+.home-image img{
+    width: 100%;
+    margin-top: -63px;
+    margin-left: 25px;
+    animation: float 3s linear infinite;
+}
+.home-content h3{
+    font-size: 4.5rem;
+    color: #77aa01;
+    font-family: "museo-sans", sans-serif;
+}
+.home-content p{
+    font-size: 1.7rem;
+    line-height: 21px;
+    color: #666;
+    padding: 1rem 0;
+}
+@keyframes float{
+    0%, 100%{
+        transform: translateY(0rem);
+    }
+    50%{
+        transform: translateY(3rem);
+    }
+}
+.home-mission-container{
+    left: 0;
+    right: 0;
+    letter-spacing: 1px;
+    color: #77aa01;
+    background: url(Images/home-mission-img.jpg);
+    padding: 2rem 9%;
+    box-shadow: 0 .5rem 1rem rgba(0, 0,0, 0.1);
+}
+.home-mission-container h3{
+    font-size: 4.5rem;
+    color: #77aa01;
+    font-family: "museo-sans", sans-serif;
+}
+.home-mission-container p{
+    font-size: 1.7rem;
+    color: whitesmoke;
+    padding: 1rem 0;
+}
+.home-footer{
+    background-color: white;
+    height: 85px;
+}
+.home-footer img{
+    margin-left: 96px;
+    width: 11%;
+}
+.links{
+    transform: translate(1000px, -56px);
+    padding: 0rem 0%
+}
+.links a{
+    color: #77aa01;
+    font-size: x-large;
+    padding: 10px;
+}
+.links a:hover{
+    color: black;
+}

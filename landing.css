@@ -1,0 +1,187 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+   background-image: url('Images/landing-body.jpg');
+   background-attachment: fixed;
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+   overflow-x: hidden;
+}
+.container{
+   background: url(Images/landing-container-img.png) no-repeat;
+   background-position: left;
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.logo-header{
+height: 10%;
+width: 100%;
+}
+
+.top-logo{
+    height: 100%;
+    width: 25%;
+    margin-top: 0%;
+    margin-left: 84%;
+}
+.top-logo img{
+   height: 100%;
+   width: 60%;
+}
+
+.main-body{
+   height: 90%;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.content-card{
+   width:70%;
+   height:70%;
+   padding: 20px;
+   margin-top: -5%;
+   border-radius: 8px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   border: 1px solid;
+   border-color: grey;
+   background: #000000;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(to left, #292828, #000000);  
+   background: linear-gradient(to left, #292828, #000000); 
+}
+
+ /* .body-logo{
+   width: 8%;
+   transform: translate(981px, -242px);
+ } */
+ 
+.navbar{
+   float: right;
+   font-family: "museo-sans", sans-serif;
+ }
+.nav{
+   text-decoration: none;
+   margin-left: 1rem;
+   color: grey;
+}
+.header .navbar a:hover{
+   color: whitesmoke;
+}
+.signup-btn{
+   padding: 10px 20px;
+   margin-left: 10px;
+   text-decoration-line: blink;
+   color: white;
+   border-radius: 25px;
+   background: linear-gradient(to right, #a8e063, #56ab2f); 
+}
+.signup-btn:hover{
+   background:#56ab2f;
+}
+.content{
+   height: 81%;
+   width: 40%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin-left: 5%;
+   margin-top: 5%;
+}
+.content h1{
+   color: whitesmoke;
+   font-family: 'Bad Script', cursive;
+   font-size: -webkit-xxx-large;
+}
+.content h4{
+   color: whitesmoke;
+   font-family: 'Bad Script', cursive;
+}
+.btn-content{
+  height: 25%;
+  width: 22%;
+  transform: translate(-390px, 12px);
+  color: white;
+  border-radius: 25px;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  background: #56ab2f;  
+  background: -webkit-linear-gradient(to right, #a8e063, #56ab2f);  
+  background: linear-gradient(to right, #a8e063, #56ab2f); 
+}
+.btn-content:hover{
+   background:#56ab2f;
+}
+.landing-img{
+   height: 53%;
+   width: 100%;
+   margin-left: 15%;
+}
+.img1{
+   float: right;
+   transform: translate(-8px, -52px);
+   width: 43%;
+   /* animation: float 3s linear infinite; */
+}
+.img2{
+   width: 35%;
+   transform: translate(245px, -50px);
+   float: left;
+}
+
+#about {
+	background: url(Images/home-bg.jpg) no-repeat center;
+	background-size: cover;
+	padding-top: 12rem;
+	padding-bottom: 4.5rem;
+	position: relative;
+}
+
+#about .about-body {
+	margin-bottom: 5.8rem;
+   text-align: center;
+}
+
+#about .about-body h2 {
+   font-family: "museo-sans", sans-serif;
+   color: #56ab2f; 
+   letter-spacing: 1px; 
+   font-size: xx-large;
+}
+
+#about .about-body p {
+   margin-top: 2%;
+	color: black;
+   letter-spacing: 1px;
+   font-size: large;
+   line-height: 30px;
+}
+
+.btn-about {
+  width: 16%;
+  height: 40px;
+  color: white;
+  font-size: medium;
+  margin-top: 2%;
+  letter-spacing: 1px;
+  border: none;
+  cursor: pointer;
+  background: #56ab2f;  
+  background: -webkit-linear-gradient(to right, #a8e063, #56ab2f);  
+  background: linear-gradient(to right, #a8e063, #56ab2f); 
+}
+.btn-about:hover{
+   background:#56ab2f;
+   color: #000000;
+}
