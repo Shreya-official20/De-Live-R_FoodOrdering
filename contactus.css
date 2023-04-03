@@ -1,0 +1,188 @@
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background: #f1f1f1;
+  font-family: "Merriweather", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: all 0.2s linear;
+}
+
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #f7f7f7;
+}
+
+.header a {
+  color: #77aa01;
+}
+
+.content {
+  height: 43vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: black;
+}
+
+form {
+  max-width: 600px;
+  text-align: center;
+  margin: 20px auto;
+  margin: 1%;
+  padding: 1%;
+}
+
+.mapouter {
+  height: 70%;
+  width: 40%;
+  border: 2px solid grey;
+  border-radius: 5px;
+  position: relative;
+  text-align: right;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 100%;
+  width: 100%;
+}
+
+form input,
+form textarea {
+  border: 0;
+  outline: 0;
+  padding: 1em;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  display: block;
+  width: 100%;
+  margin-top: 1em;
+  font-family: "Merriweather", sans-serif;
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  resize: none;
+}
+
+form input:focus,
+form textarea:focus {
+  -moz-box-shadow: 0 0px 2px #e74c3c !important;
+  -webkit-box-shadow: 0 0px 2px #e74c3c !important;
+  box-shadow: 0 0px 2px #e74c3c !important;
+}
+
+form #input-submit {
+  cursor: pointer;
+  color: white;
+  background: #77aa01;
+  background: -webkit-linear-gradient(to right, #a8e063, #56ab2f);
+  background: linear-gradient(to right, #a8e063, #56ab2f);
+}
+
+form #input-submit:hover {
+  background: #56ab2f;
+  cursor: pointer;
+}
+
+form textarea {
+  height: 126px;
+}
+
+.half {
+  float: left;
+  width: 48%;
+  margin-bottom: 1em;
+}
+
+.right {
+  width: 50%;
+}
+
+.left {
+  margin-right: 2%;
+}
+
+@media (max-width: 480px) {
+  .half {
+    width: 100%;
+    float: none;
+    margin-bottom: 0;
+  }
+}
+
+/* Clearfix */
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+.header {
+  width: 100vw;
+  height: 15vh;
+  background-color: black;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  color: #77aa01;
+  font-family: "Bad Script", cursive;
+}
+
+.header>h2 {
+  font-size: 2rem;
+  margin: 2%;
+}
+
+.header>span {
+  font-size: 1.2rem;
+  margin: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.thanks__tab {
+  height: 45vh;
+  width: 100vw;
+  background-image: url("Images/contact_us.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-size: 10.5vh;
+  font-family: "museo-sans", sans-serif;
+  display: flex;
+  opacity: 0.9;
+  justify-content: center;
+  align-items: center;
+}
